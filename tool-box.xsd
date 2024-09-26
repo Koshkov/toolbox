@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="https://www.w3schools.com"
+	xmlns="https://www.w3schools.com"
+	elementFormDefault="qualified">
+
+	<xs:annotation>
+		<xs:documentation>
+			Simple schema developed by Mathieu Landretti. Used to model a 
+			collection of software tools.
+		</xs:documentation>
+	</xs:annotation>
+
+	<xs:simpleType name="categorytype">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Searching"/>
+			<xs:enumeration value="Citation Management"/>
+			<xs:enumeration value="Digital Libraries"/>
+			<xs:enumeration value="Time Management"/>
+			<xs:enumeration value="Note Taking"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="tooltype">
+		<xs:sequence>
+			<xs:element name="title" type="xs:string" use="requried"/>
+			<xs:element name="date" type="xs:date" use="required"/>
+			<xs:element name="uri" type="xs:string" use="requried"/>
+			<xs:element name="description" type="xs:string" use="required"/>
+			<xs:element name="category" type="categorytype" use="requried"/>
+			<xs:element name="license" type="xs:string" />
+			<xs:element name="source" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="boxtype">
+		<xs:sequence> 
+			<xs:element name="tool" type="tooltype" maxOccurs="unbounded" />
+		</xs:sequence> 
+	</xs:complexType>
+
+	<xs:element name="box" type="boxtype"/>
+</xs:schema>

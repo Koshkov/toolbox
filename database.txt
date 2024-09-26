@@ -1,0 +1,9 @@
+Anna&#39;s Archive|2024-09-21|The largest online shadow library. Allows for free access to books, scientific articles, geospatial data, and more!|https://annas-archive.org|Digital Libraries|
+Sci-Hub|2024-09-21|The largest online library of free and unrestricted scientific articles and papers created by Alexandra Elbakyan.|https://www.sci-hub.st/|Digital Libraries|
+Library Genesis|2024-09-21|Library Genesis (LibGen) is a large shadow library that provides free access to scholarly articles.|https://libgen.is/|Digital Libraries|
+Memory of the World|2024-09-21|The Memory of the World is a huge and free digital public library created by Marcell Mars &amp; Tomislav Medak.|https://library.memoryoftheworld.org/|Digital Libraries
+Zotero|2024-09-21|Zotero is a free, open source citation manager that supports many citation styles including APA, MLA, and Chicago.|https://www.zotero.org/|Citation Management|
+Hypothes.is|2024-09-21|This browser extension allows you to take notes and make annotations on any website, PDF, or any digital document.|https://web.hypothes.is/|Note Taking|
+Wiby.me|2024-09-21| Wiby is an open source search engine that only indexes small/old-school Web 1.0 websites.|https://wiby.me/|Searching|
+SearX|2024-09-21|SearX is an open source, self-hosted, meta search engine that allows you to curate searches from multiple search engines. There are many public instances of SearX that you can use.|https://searx.space/|Searching|
+PDF Split and Merge|2024-09-22|A simple, open-source software that allows you to split, merge, and extract files from a PDF docuemnt.|https://pdfsam.org/pdfsam-basic/|Note Taking|
