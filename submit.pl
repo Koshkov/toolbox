@@ -18,7 +18,7 @@ sub sanitize{
 my $q = CGI->new;
 my $date = localtime->strftime('%Y-%m-%d');
 my $date_time = localtime->strftime();
-my $db = "/srv/www/apache/suggestions/$date_time-suggestions.txt";
+my $db = "suggestions/$date_time-suggestions.txt";
 print $q->header();
 
 if($q->param()){
